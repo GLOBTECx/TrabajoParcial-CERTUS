@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #43e97b 0%, #4644eede 100%);
+}
+
+/* *PARTE DE INTRODUCCIÓN */
+.titulo {
+    padding-top: 34px;
+    color: rgb(227, 252, 0);
+    font-family: "Signika Negative", sans-serif, "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 100;
+    font-size: 4.4em;
+    text-align: center;
+}
+
+.logo-empresa {
+    text-align: center;
+    margin-top: -70px;
+}
+
+.logo-empresa img {
+    height: 555px;
+    width: 555px;
+}
+
+.text-logo {
+    margin-top: -70px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "mononoki", "Fira Code", monospace, Verdana, Geneva, Tahoma,
+        sans-serif;
+    color: rgb(236, 191, 42);
+
+}
+
+.contacto {
+    text-align: center;
+    font-size: 15px;
+    font-family: "mononoki", "Fira Code", monospace, Verdana, Geneva, Tahoma,
+        sans-serif;
+    color: white;
+}
+
+
+/* ? Logo Estático de Contácto */
+
+#logoWsp {
+    width: 64px;
+    border-radius: 32px;
+    position: fixed;
+    bottom: 50px;
+    right: 28px;
+}
+
+.textoWsp {
+    position: fixed;
+    font-size: 14px;
+    bottom: 20px;
+    right: 16px;
+    font-family: "mononoki", "Fira Code", monospace, "Courier New", Courier,
+        monospace, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #432c39;
+    color: #43e97b;
+}
+
+/* LINEA INICIAL */
+.lineInicio {
+    width: 100%;
+    max-width: 2800px;
+    margin: 60px auto 60px auto;
+    height: 2.5px;
+    background: white;
+    margin-bottom: 20px;
+}
+
+/* * PARTE DEL CATÁLOGO */
+
+/* ? Color de Fondo de la sección del Catálogo */
+.section-catalogo {
+    background-image: linear-gradient(to right, #8ceead 0%, #9999bede 100%);
+}
